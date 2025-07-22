@@ -1,0 +1,52 @@
+/* In ImageGallery.css */
+
+.image-gallery {
+  text-align: center;
+  margin: 20px auto;
+  /* Consider a specific height for the gallery container if you want consistency.
+     Otherwise, let the image's height dictate it. For now, let's remove it. */
+  /* height: 450px; /* Example fixed height, adjust as needed */
+  /* display: flex; */ /* Potentially use flexbox for centering if you want to. */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* overflow: hidden; */ /* Ensures nothing spills out */
+}
+
+.gallery-image {
+  max-width: 95%; /* Give a little padding from the edges */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 450px; /* Increase max height slightly */
+  object-fit: contain; /* Scales down to fit, maintaining aspect ratio, without cropping content */
+  /* object-position: center center; */ /* Ensures the image is centered within its bounds */
+  border-radius: 12px; /* Slightly more rounded */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+  margin-bottom: 20px; /* More space below image */
+  border: 4px solid #F8C300; /* Brighter, more prominent border */
+  transition: transform 0.3s ease-in-out; /* Add a subtle hover effect */
+}
+
+.gallery-image:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.image-caption {
+  font-size: 1.15em; /* Slightly larger caption */
+  color: #555;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.gallery-controls button {
+  background-color: #6A5ACD; /* SlateBlue - a richer color */
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px; /* Pill shape */
+  font-weight: bold;
+  font-size: 1.05em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.gallery-controls button:hover {
+  background-color: #483D8B; /* DarkSlateBlue */
+  transform: translateY(-2px);
+}
