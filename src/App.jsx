@@ -123,6 +123,9 @@ function App() {
 
       {/* Optional Image Gallery */}
       {/* <ImageGallery images={images} /> */}
+      <img src="RM.png" alt="Sri Sri Radha Madhava Deities, Mayapur" />
+      <img src="P.png" alt="His Divine Grace A.C. Bhaktivedanta Swami Prabhupada" />
+      <img src="IT.png" alt="ISKCON Temple, Bangalore" />
 
       {/* Optional Info Section */}
       {/* <InfoSection principles={iskconPrinciples} /> */}
