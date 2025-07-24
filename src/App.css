@@ -10,6 +10,7 @@ html, body {
 }
 
 body {
+    margin-top: 1000px;
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #fceabb, #f8b500);
@@ -270,7 +271,7 @@ h2 {
 @media (max-width: 768px) {
     .app-container {
         margin: 20px auto;
-        margin-top: 1800px;
+        margin-top: 1500px;
         padding: 20px;
     }
     h1 { font-size: 2em; }
